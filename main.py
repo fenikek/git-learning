@@ -18,3 +18,10 @@ print(5)
 print(6)
 
 print('test')
+
+
+def main(x=int):
+    for i in (range(x)):
+        print("main")
+
+main(13)
